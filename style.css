@@ -40,10 +40,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 800px;
 }
 .quiz-box {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     background-color: #8C715A;
     padding: 16px 80px 80px 80px;
@@ -91,7 +91,7 @@ p {
 .quiz-box #question {
     font-size: 30px;
     font-style: bolder;
-    font-weight: 600px;
+    font-weight: 700px;
     color: white;
     border: 1px solid white;
     border-width: 1px 0;
@@ -103,12 +103,20 @@ p {
 }
 .btn {
     text-align: left;
-    background-color: purple;
+    background-color: #B39A84;
     width: 100%;
     font-size: 30px;
-    color: pink;
-    border: 1px solid black;
+    color: #423930;
+    border: 1px solid #422609;
     border-radius: 5px;
     margin: 7px 0;
+    padding: 16px;
+    outline: none;
     
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #694D31;
+    color: white
 }
