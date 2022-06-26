@@ -8,6 +8,8 @@
     margin: 0;
     padding: 0;
     
+
+    
 }
 
 html {
@@ -42,9 +44,9 @@ p {
 
 
 .container {
-    max-width: 900px;
+    width: 900px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,10 +54,23 @@ p {
 }
 .quiz-box {
     width: 600px;
+    height: 400px;
     margin: 0 auto;
     background-color: black;
     padding: 16px 80px 80px 80px;
-    border: 3px solid;
+    border: 3px;
     border-radius: 5px;
 }
 
+.quiz-box h1 {
+    background-color: white;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    padding: 16px 0;
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 3px;
+
+
+}
