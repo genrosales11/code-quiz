@@ -7,10 +7,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0;
-    width: 1000;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+   
         
 }
 
@@ -47,7 +44,6 @@ p {
 }
 .quiz-box {
     width: 600px;
-    height: 400px;
     margin: 0 auto;
     background-color: darkgray;
     padding: 16px 80px 80px 80px;
@@ -57,10 +53,10 @@ p {
 
 .quiz-box h1 {
     background-color: palevioletred;
-    font-size: 64px;
+    font-size: 40px;
     text-align: center;
     color: white;
-    padding: 16px 0;
+    padding: 18px;
     width: 100%;
     margin-bottom: 32px;
     border-radius: 3px;
@@ -94,7 +90,7 @@ p {
 
 .quiz-box #question {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 600px;
     color: orangered;
     border: 1px solid gray;
 }
