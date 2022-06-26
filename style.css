@@ -131,8 +131,16 @@ p {
     font-size: 32px;
     margin-bottom: 60px;
 }
+ 
+.quiz-repeat {
+    text-align: center;
+    margin: 0 auto;
 
-.quiz-repear {
+}
+
+
+
+.quiz-repeat a {
     font-size: 20px;
     font-weight: 600;
     color: white;
@@ -140,4 +148,11 @@ p {
     background-color: yellow;
     padding: 16px;
     border-radius: 80px;
+    transition: all .3s;
+}
+
+
+
+.quiz-repeat a:hover {
+    background-color: yellowgreen;
 }
