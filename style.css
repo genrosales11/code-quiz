@@ -120,3 +120,24 @@ p {
     background-color: #694D31;
     color: white
 }
+
+.btn:active {
+    background-color:  #CFA886;
+}
+
+#score {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.quiz-repear {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 16px;
+    border-radius: 80px;
+}
