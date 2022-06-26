@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(22, 21, 21);
+    background-color: #735032;
 }
     
 
@@ -14,7 +14,7 @@
 
 body {
     font-family: fantasy;
-    background-color: darkgrey;
+    background-color: #5E2C01;
 }
 
 
@@ -23,7 +23,7 @@ body {
 p {
     font-size: 26px;
     line-height: 1.5;
-    color:pink;
+    color: black;
     font-family: fantasy;
 
 }
@@ -45,14 +45,14 @@ p {
 .quiz-box {
     width: 600px;
     margin: 0 auto;
-    background-color: darkgray;
+    background-color: #8C715A;
     padding: 16px 80px 80px 80px;
-    border: 3px;
+    border: 3px solid white;
     border-radius: 5px;
 }
 
 .quiz-box h1 {
-    background-color: palevioletred;
+    background-color: #B08158;
     font-size: 40px;
     text-align: center;
     color: white;
@@ -80,7 +80,7 @@ p {
 .quiz-header #count-down {
     font-size: 26px;
     font-weight: 700;
-    background-color: orangered;
+    background-color: #CFA886;
     padding: 5px;
     margin: 1px;
     color: white;
@@ -90,7 +90,8 @@ p {
 
 .quiz-box #question {
     font-size: 30px;
+    font-style: bolder;
     font-weight: 600px;
-    color: orangered;
-    border: 1px solid gray;
+    color: #FCECDE;
+    border: 1px solid white;
 }
