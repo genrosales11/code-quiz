@@ -1,11 +1,11 @@
 :root {
-    background-color: black;
-
+    background-color: cornflowerblue;
 }
+    
 
 * {
     box-sizing: border-box;
-    margin: 0%;
+    margin: 0;
     padding: 0;
     
 }
@@ -14,35 +14,48 @@ html {
     font-size: 10px;
 }
 
+body {
+    font-family: fantasy;
+    background-color: darkgray;
+}
+
+
 h1 {
     font-size: 70px;
-    color: white;
+    color: black;
     margin: 100px;
     font-family: fantasy;
 }
 
+
 p {
-    font-size: 1.6rem;
+    font-size: 26px;
     line-height: 1.5;
-    color: white;
+    color: black;
     font-family: fantasy;
 
 }
 
+
+
 /* container start here */
 
+
 .container {
-    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 900px;
-    margin: 0 auto;
-   padding: 0 20px;
+    height: 400px;
 }
 .quiz-box {
     width: 600px;
     margin: 0 auto;
-    background-color: wheat;
-    padding: 16px 80px;
+    background-color: black;
+    padding: 16px 80px 80px 80px;
+    border: 3px solid;
+    border-radius: 5px;
 }
+
