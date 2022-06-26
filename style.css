@@ -40,9 +40,9 @@ p {
     margin: 0 auto;
    padding: 0 20px;
 }
- .quiz-box {
-     width: 600px;
-     margin: 0 auto;
-     background-color: wheat;
-     padding: 16px 80px;
- }
+.quiz-box {
+    width: 600px;
+    margin: 0 auto;
+    background-color: wheat;
+    padding: 16px 80px;
+}
