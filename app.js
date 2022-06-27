@@ -14,4 +14,9 @@ guess(answer) {
     }
     this.questionsIndex++;
 }
+
+isEnded() {
+    return this.questionsIndex === this.questionsIndex.length;
 }
+}
+
