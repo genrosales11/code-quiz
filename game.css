@@ -1,0 +1,161 @@
+/*color of body */
+
+:root {
+    background-color: #735032;
+}
+    
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+   
+        
+}
+
+body {
+    font-family: fantasy;
+    font-size: 16px;
+    background-color: #5E2C01;
+}
+
+
+
+
+p {
+    font-size: 26px;
+    line-height: 1.5;
+    color: black;
+    font-family: fantasy;
+
+}
+
+
+
+/* container starts here */
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.quiz-box {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #8C715A;
+    padding: 16px 80px 80px 80px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.quiz-box h1 {
+    background-color: #B08158;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 3px;
+
+
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.quiz-header #progress {
+    color: rgb(10, 8, 8);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.quiz-header #count-down {
+    font-size: 26px;
+    font-weight: 700;
+    background-color: #CFA886;
+    padding: 5px;
+    margin: 1px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.quiz-box #question {
+    font-size: 30px;
+    font-style: bolder;
+    font-weight: 700px;
+    color: white;
+    border: 1px solid white;
+    border-width: 1px 0;
+    padding: 5px 0;
+}
+
+.buttons {
+    margin: 16px 0px 30px 0px;
+}
+.btn {
+    text-align: left;
+    background-color: #B39A84;
+    width: 100%;
+    font-size: 30px;
+    color: #423930;
+    border: 1px solid #422609;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 16px;
+    outline: none;
+    
+}
+/* write comment here */
+
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #694D31;
+    color: white
+}
+
+.btn:active {
+    background-color:  #CFA886;
+}
+
+#score {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+ 
+.quiz-repeat {
+ text-align: center;
+ margin: 0 auto;
+}
+
+
+
+.quiz-repeat a {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 16px;
+    border-radius: 80px;
+    transition: all .3s;
+}
+
+
+
+.quiz-repeat a:hover {
+    background-color: yellowgreen;
+}
