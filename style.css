@@ -1,3 +1,5 @@
+/*color of body */
+
 :root {
     background-color: #735032;
 }
@@ -11,9 +13,9 @@
         
 }
 
-
 body {
     font-family: fantasy;
+    font-size: 16px;
     background-color: #5E2C01;
 }
 
@@ -30,7 +32,7 @@ p {
 
 
 
-/* container start here */
+/* container starts here */
 
 
 .container {
@@ -135,10 +137,16 @@ p {
 }
  
 .quiz-repeat {
-    text-align: center;
-    margin: 0 auto;
-
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background-color: tomato;
+  padding: 16px;
+  border-radius: 5px;
+  transition: all .3s;
 }
+
 
 
 

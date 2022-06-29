@@ -20,7 +20,7 @@ isEnded() {
     }
 }
 
-//*question class
+// question class
 
 class Question {
     constructor(text, choices, answer) {
@@ -35,21 +35,21 @@ class Question {
 // display question
 
 function displayQuestion() {
-    if (Quiz.isEnded()) {
+    if (quiz.isEnded()) {
         showScore();
 } else {
 
 
     // show question
-    let question = document.getElementById("question");
+    let questionElement =document.getElementById("question");
     questionElement.innierHTML = quiz.getQuestionIndex().text;
-    //show option
+    //show options
     let choices = quiz.getQuestionIndex().choices;
     for (let i = 0; i < choices.length; i++) {
-        let choiceElement = document.getElementById("choice" +
-        i);
+        let choiceElement = document.getElementById("choice" 
+        + i);
         choiceElement.innerHTML = choices[i];
-        guess("btn" + i, choices [i]);
+        guess("btn" + i, choices[i]);
     }
        showProgress();
 }
@@ -90,27 +90,52 @@ function showScore() {
 
 }
 
-//quiz questions
-let question = [
-    new question(
-        "Hyper Text markup?", ["abc", "hello", "qwer", "thiss"], "thiss"
+//quiz questions about javascrip add answer
+let question = [    
+    new Question(
+        "Hyper Text this is one markup?", ["abc", "hello", "qwer", "thiss"], "qwer"
     ),
 
-    new question(
-        "Hyper Text markup?", ["abc", "hello", "qwer", "thiss"], "qwer"
+    new Question(
+        "Hyper Text this is two markup?", ["abc", "hello", "qwer", "thiss"], "abc"
     ),
 
-    new question(
-        "Hyper Text markup?", ["abc", "hello", "qwer", "thiss"], "abc"
+    new Question(
+        "Hyper Text mvfd   arkup?", ["abc", "hello", "qwer", "thiss"], "hello"
     ),
 
-    new question(
-        "Hyper Text markup?", ["abc", "hello", "qwer", "thiss"], "hello"
-    ),
-
+    new Question(
+        "Hyper Text vfvfvfarkup?", ["abc", "hello", "qwer", "thiss"], "qwer"
+    ) 
+]
     
  
-];
-let quiz = new quiz (question);
+
+let quiz = new Quiz(question);
 // display question
 displayQuestion();
+
+//need to add countdown 
+
+let time = 1;
+let queTimeInMinutes = time * 60 * 60
+quizTime = quizTimeInMinutes / 60;
+
+let counting = document.getElementById("count-down");
+
+function startCoundown() {
+    let quizTimer = setInterval(function() {
+        if (quizTime <= 0) {
+            clearInterval(quizTimer);
+            showScores();
+
+        } else {
+            quizTime--;
+            let sec = Math.floor(quizTime % 60);
+            let min = Math.floor(quizTime / 60) % 60;
+            counting.innnerHTML = `Time: ${min} ${sec}`;
+        }
+    })
+            }
+    
+startCoundown();
