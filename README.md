@@ -30,5 +30,6 @@ JavaScript, HTML, CSS, Git, GitHub
 
 #GIF
 
-[
-](https://github.com/genrosales11/code-quiz/blob/main/gif.gif)
+(https://github.com/genrosales11/code-quiz/blob/main/gif.gif)
+
+(https://github.com/genrosales11/code-quiz/blob/main/gif.gif)
