@@ -55,3 +55,22 @@ h2 {
 .hidden {
     display: none;
 }
+
+.btn {
+    font-size: 36px;
+    padding: 30px 0;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background-color: #B39A84;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: seashell;
+    transform: transform 150ms;
+    transform: scale(1.03);
+}
